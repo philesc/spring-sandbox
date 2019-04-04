@@ -34,7 +34,23 @@ public class MapToStringUtils {
    * @return Map obtenu après parsing.
    */
   public static Map<String, String> parseString(String input, String separatorBegin, String separatorEnd) {
-    return new HashMap<>();
+    Map<String, String> output = new HashMap<>();
+    String[] splittedInput = input.split(Pattern.quote(separatorBegin) + "|" + Pattern.quote(separatorEnd));
+    if (splittedInput.length > 0) {
+      output.put(START_KEY, splittedInput[0]);
+
+      for (int i = 1; i + 1 < splittedInput.length; i += 2) {
+        output.put(splittedInput[i], splittedInput[i + 1]);
+      }
+      // Si on a pas traité le dernier separateur dans le for
+      // (pour éviter une IndexOutOfBoudException)
+      // On ajoute une valeur vide au dernier separateur
+      if (splittedInput.length % 2 == 0) {
+        output.put(splittedInput[splittedInput.length - 1], "");
+      }
+    }
+
+    return output;
   }
 
   /**
@@ -47,6 +63,16 @@ public class MapToStringUtils {
    * @return La String buildée avec les séparateurs.
    */
   public static String buildString(Map<String, String> input, String separatorBegin, String separatorEnd) {
-    return "";
+    StringBuilder output = new StringBuilder();
+    if (StringUtils.isNotEmpty(input.get(START_KEY))) {
+      output.append(input.get(START_KEY));
+      input.remove(START_KEY);
+    }
+
+    for (Map.Entry<String, String> entry : input.entrySet()) {
+      output.append(separatorBegin + entry.getKey() + separatorEnd).append(entry.getValue());
+    }
+
+    return output.toString();
   }
 }
