@@ -1,0 +1,138 @@
+[
+  {
+    "shortName": ".UT",
+    "fullName": "EQUIPEMENT NOMENCLATURE UTO"
+  },
+  {
+    "shortName": "0I",
+    "fullName": "CP0"
+  },
+  {
+    "shortName": "13E",
+    "fullName": "PALIER 1300 STAND. EXPLOITATION"
+  },
+  {
+    "shortName": "13I",
+    "fullName": "PALIER 1300 INGÉNIERIE DE CONCEPTION"
+  },
+  {
+    "shortName": "17E",
+    "fullName": "PALIER 1700 STANDARDISATION EXPLOITATION"
+  },
+  {
+    "shortName": "17I",
+    "fullName": "PALIER EPR INGENIERIE DE CONCEPTION"
+  },
+  {
+    "shortName": "9E",
+    "fullName": "PALIER 900 STANDARDISATION EXPLOITATION"
+  },
+  {
+    "shortName": "9I",
+    "fullName": "PALIER 900 INGÉNIERIE DE CONCEPTION"
+  },
+  {
+    "shortName": "BEL",
+    "fullName": "BELLEVILLE"
+  },
+  {
+    "shortName": "BLA",
+    "fullName": "BLAYAIS"
+  },
+  {
+    "shortName": "BRE",
+    "fullName": "BRENNILIS"
+  },
+  {
+    "shortName": "BUG",
+    "fullName": "BUGEY"
+  },
+  {
+    "shortName": "CAT",
+    "fullName": "CATTENOM"
+  },
+  {
+    "shortName": "CHI",
+    "fullName": "CHINON"
+  },
+  {
+    "shortName": "CHO",
+    "fullName": "CHOOZ B"
+  },
+  {
+    "shortName": "CIV",
+    "fullName": "CIVAUX"
+  },
+  {
+    "shortName": "CRE",
+    "fullName": "CREYS-MALVILLE"
+  },
+  {
+    "shortName": "CRU",
+    "fullName": "CRUAS"
+  },
+  {
+    "shortName": "DAM",
+    "fullName": "DAMPIERRE"
+  },
+  {
+    "shortName": "EDF",
+    "fullName": "ELECTRICITÉ DE FRANCE"
+  },
+  {
+    "shortName": "FA3",
+    "fullName": "FLAMANVILLE 3"
+  },
+  {
+    "shortName": "FES",
+    "fullName": "FESSENHEIM"
+  },
+  {
+    "shortName": "FLA",
+    "fullName": "FLAMANVILLE"
+  },
+  {
+    "shortName": "GOL",
+    "fullName": "GOLFECH"
+  },
+  {
+    "shortName": "GRA",
+    "fullName": "GRAVELINES"
+  },
+  {
+    "shortName": "N4E",
+    "fullName": "PALIER 1400 STANDARDISATION EXPLOI"
+  },
+  {
+    "shortName": "N4I",
+    "fullName": "PALIER 1400 INGENIERIE DE CONCEPTION"
+  },
+  {
+    "shortName": "NOG",
+    "fullName": "NOGENT"
+  },
+  {
+    "shortName": "PAL",
+    "fullName": "PALUEL"
+  },
+  {
+    "shortName": "PEN",
+    "fullName": "PENLY"
+  },
+  {
+    "shortName": "SAL",
+    "fullName": "ST ALBAN"
+  },
+  {
+    "shortName": "SLB",
+    "fullName": "ST LAURENT B"
+  },
+  {
+    "shortName": "TRI",
+    "fullName": "TRICASTIN"
+  },
+  {
+    "shortName": "ULM",
+    "fullName": "UNITE DE LOGISTIQUE ET MAINTENANCE"
+  }
+]
